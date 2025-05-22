@@ -1,0 +1,23 @@
+### GET - Fetch all tasks
+GET http://localhost:5003/tasks/
+
+### POST - Create a new task
+POST http://localhost:5003/tasks/
+Content-Type: application/json
+
+{
+  "title": "Complete the Node and mongoDB proyect",
+  "completed": false
+}
+
+### PUT - Update a task by ID
+PUT http://localhost:5003/tasks/1
+Content-Type: application/json
+
+{
+  "title": "Complete the Node and mongoDB proyect",
+  "completed": true
+}
+
+### DELETE - Delete a task by ID
+DELETE http://localhost:5003/tasks/1

@@ -1,0 +1,24 @@
+{
+  "name": "api_tasks",
+  "version": "1.0.0",
+  "description": "API for managing tasks using Express.js and MongoDB",
+  "main": "mongoDB-server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/servers/mongoDB-server.js",
+    "start": "node src/servers/mongoDB-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "mongoose-sequence": "^6.0.1",
+    "nodemon": "^3.1.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
